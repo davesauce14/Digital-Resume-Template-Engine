@@ -1,0 +1,502 @@
+{
+    "header": {
+        "primaryIntro": "Dave Gould",
+        "secondaryIntro": "Passionate. Driven. Technical. Outgoing.",
+        "occupation": "Software Developer",
+        "greetings": [
+            "Hi!",
+            "Hello!", 
+            "Aloha!"
+        ],
+        "pictures": {
+            "random": true,
+            "pictureUrls" : [
+                "",
+                ""
+            ]
+        }
+    }, 
+    "aboutMe" : {
+        "intro": "Hello, my name is Dave Gould and I love coding, both professionally and on my spare time. I have been an active developer for 5 years and it has become a part who I am."
+    },
+    "workExperience" : {
+        "intro": "Although it might not be completely relevant, I have put on many hats since mu first job at 14 years old. Below are the titles I have carried in reverse chronological order. Relevancy toggle is switched on to negate any irrelivent information and preserve my professional image.",
+        "experiences": [
+            {
+                "company": "Pershing",
+                "parentCompany": "Bny Mellon",
+                "logoUrl": "https://logodix.com/logo/767580.jpg",
+                "url": "https://www.pershing.com",
+                "isRelevant": true,
+                "description": "Pershing LLC is a subsidiary of The Bank of New York Mellon. Pershing has nearly $1.9 trillion in assets under administration. The Bank of New York Mellon has more than $35.5 trillion in assets in custody.",
+                "titles" : [
+                    {
+                        "title": "Vice President - Application Development",
+                        "description": "",
+                        "dates": {
+                            "start" : "2/1/2020",
+                            "end": ""
+                        }
+                    },
+                    {
+                        "title": "Lead Developer - Application Development",
+                        "description": "",
+                        "dates": {
+                            "start" : "12/1/2017",
+                            "end": "2/1/2020"
+                        }
+                    },
+                    {
+                        "title": "Senior Developer - Application Development",
+                        "description": "",
+                        "dates": {
+                            "start" : "1/19/2016",
+                            "end": "12/1/2017"
+                        }
+                    }
+                ]
+
+            },
+            {
+                "company": "Finra",
+                "parentCompany": "",
+                "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2cT21TYKKYr3nggJ0KIm_VW0qtuAUjmU31Wm-3HLoztrV6age&s",
+                "url": "https://www.finra.org/#/",
+                "isRelevant": true,
+                "description": "The Financial Industry Regulatory Authority, Inc. (FINRA) is a private corporation that acts as a self-regulatory organization (SRO). It is a non-governmental organization that regulates member brokerage firms and exchange markets.",
+                "titles" : [
+                    {
+                        "title": "Software Development Intern",
+                        "description": "",
+                        "dates": {
+                            "start" : "2015",
+                            "end": "2016"
+                        }
+                    }
+                ]
+            },
+            {
+                "company": "AG Pizza",
+                "parentCompany": "",
+                "logoUrl": "https://cdn.shopify.com/s/files/1/1788/2177/products/a_g_pizza_restaurant_mer38895487_logo_1024x1024.jpg?v=1524182449",
+                "url": "https://agpizzaandrestaurant.com",
+                "isRelevant": false,
+                "description": "A G Pizza and Restaurant great food and service! Nice family atmosphere with friendly employees looking forward to serving you. Killer Pizza.",
+                "titles" : [
+                    {
+                        "title": "Pizza Delivery Specialist",
+                        "description": "",
+                        "dates": {
+                            "start" : "2013",
+                            "end": "2015"
+                        }
+                    }
+                ]
+            },
+            {
+                "company": "Chatterbox",
+                "parentCompany": "",
+                "logoUrl": "https://imgcc-a.akamaihd.net/LocFiles/31668/Images/2238955_N_00336_010_12_adLogo.png?width=300&height=162",
+                "url": "https://www.facebook.com/cboxdrivein",
+                "isRelevant": false,
+                "description": "1960's themed resturaunt.",
+                "titles" : [
+                    {
+                        "title": "Cook / Grill Master",
+                        "description": "",
+                        "dates": {
+                            "start" : "2010",
+                            "end": "2013"
+                        }
+                    }
+                ]
+            },
+            {
+                "company": "Kohl's",
+                "parentCompany": "",
+                "logoUrl": "https://www.logolynx.com/images/logolynx/17/17a97c3be86d7b48d0ebd2b3e4eba55e.png",
+                "url": "https://www.kohls.com",
+                "isRelevant": false,
+                "description": "Kohl's is an American department store retail chain, operated by Kohl's Corporation. With 1,158 locations, it is the largest department store chain in the United States as of February 2013.",
+                "titles" : [
+                    {
+                        "title": "Home Associate",
+                        "description": "",
+                        "dates": {
+                            "start" : "2008",
+                            "end": "2010"
+                        }
+                    }
+                ]
+            },
+            {
+                "company": "Dales Market",
+                "parentCompany": "",
+                "logoUrl": "https://media.superpages.com/media/photos/00/09/67/51/98/images/9b0760b8b5b3ea1a79b577069f3bef6f.png",
+                "url": "https://www.dalesmarket.com",
+                "isRelevant": false,
+                "description": "Legendary Grocery Store in the small town of Sussex, NJ.",
+                "titles" : [
+                    {
+                        "title": "Merchandise Expert",
+                        "description": "",
+                        "dates": {
+                            "start" : "2007",
+                            "end": "2008"
+                        }
+                    }
+                ]
+            },
+            {
+                "company": "Camp Iliff",
+                "parentCompany": "",
+                "logoUrl": "https://www.morrissussexresourcenet.org/rnMorris/cache/file/58578289-022C-49DA-A6F6E8DDF44273FD_medium.jpg",
+                "url": "https://www.morrissussexresourcenet.org/search/camp-iliff",
+                "isRelevant": false,
+                "description": "After School and sumer camp.",
+                "titles" : [
+                    {
+                        "title": "Camp Conselur",
+                        "description": "",
+                        "dates": {
+                            "start" : "2007",
+                            "end": "2008"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "educationBackground" : {
+        "acedemicBackground": [
+            {
+                "school": "New Jersey Institute of Technology",
+                "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/NJIT_Athletics_wordmark.png",
+                "url": "https://www.njit.edu",
+                "degree": "Bachelor of Science",
+                "major": "Information Technology",
+                "gpa": "3.7",
+                "isRelevant": true
+            },
+            {
+                "school": "Sussex County Community College",
+                "logoUrl": "https://hopatconglakeregionalnews.com/images/SussexCounthCC.jpg",
+                "url": "https://www.sussex.edu",
+                "degree": "Associate of Science",
+                "major": "Information Systems",
+                "gpa": "",
+                "isRelevant": true
+            }
+        ],
+        "onlineLearning": [
+            {
+                "platform": "Udemy",
+                "courseTitle": "Angular",
+                "logoUrl": "https://d3q6qq2zt8nhwv.cloudfront.net/platform/dbb1a59e6e594c7c8119a9220968a767.png",
+                "courseUrl": "https://www.udemy.com/course/the-complete-guide-to-angular-2",
+                "completion": "90%"
+            },
+            {
+                "platform": "Udemy",
+                "courseTitle": "Angular",
+                "logoUrl": "https://d3q6qq2zt8nhwv.cloudfront.net/platform/dbb1a59e6e594c7c8119a9220968a767.png",
+                "courseUrl": "https://www.udemy.com/course/the-complete-guide-to-angular-2",
+                "completion": "90%"
+            },
+            {
+                "platform": "Udemy",
+                "courseTitle": "Angular",
+                "logoUrl": "https://d3q6qq2zt8nhwv.cloudfront.net/platform/dbb1a59e6e594c7c8119a9220968a767.png",
+                "courseUrl": "https://www.udemy.com/course/the-complete-guide-to-angular-2",
+                "completion": "90%"
+            }
+        ],
+        "skillSet": [
+            {
+                "name": "Javascript",
+                "description": "Angular Framework"
+            },
+            {
+                "name": "Typescript",
+                "description": "Angular Framework"
+            },
+            {
+                "name": "Angular",
+                "description": "Angular Framework"
+            },
+            {
+                "name": "AngularJs",
+                "description": "Angular Framework"
+            },
+            {
+                "name": "Dojo",
+                "description": "Angular Framework"
+            },
+            {
+                "name": "JQuery",
+                "description": "Angular Framework"
+            },
+            {
+                "name": "Node",
+                "description": "Angular Framework"
+            },
+            {
+                "name": "Gulp",
+                "description": "Angular Framework"
+            },
+            {
+                "name": "HTML",
+                "description": "Angular Framework"
+            },
+            {
+                "name": "CSS",
+                "description": "Angular Framework"
+            },
+            {
+                "name": "SCSS",
+                "description": "Angular Framework"
+            },
+            {
+                "name": "Java",
+                "description": "Angular Framework"
+            },
+            {
+                "name": "Spring",
+                "description": "Angular Framework"
+            },
+            {
+                "name": "JPA (Hibernate)",
+                "description": "Angular Framework"
+            },
+            {
+                "name": "Maven",
+                "description": "Angular Framework"
+            },
+            {
+                "name": "Express",
+                "description": "Angular Framework"
+            },
+            {
+                "name": "Python",
+                "description": "Angular Framework"
+            },
+            {
+                "name": "Junit",
+                "description": "Angular Framework"
+            },
+            {
+                "name": "Karma",
+                "description": "Angular Framework"
+            },
+            {
+                "name": "Puppeteer",
+                "description": "Angular Framework"
+            },
+            {
+                "name": "Cypress",
+                "description": "Angular Framework"
+            },
+            {
+                "name": "SQL",
+                "description": "Angular Framework"
+            },
+            {
+                "name": "MongoDB",
+                "description": "Angular Framework"
+            },
+            {
+                "name": "Github",
+                "description": "Angular Framework"
+            },
+            {
+                "name": "SVN",
+                "description": "Angular Framework"
+            },
+            {
+                "name": "Unity",
+                "description": "Angular Framework"
+            },
+            {
+                "name": "OculusSDK",
+                "description": "Angular Framework"
+            },
+            {
+                "name": "Maya",
+                "description": "Angular Framework"
+            },
+            {
+                "name": "Cordova",
+                "description": "Angular Framework"
+            },
+            {
+                "name": "Jenkins",
+                "description": "Angular Framework"
+            },
+            {
+                "name": "JIRA",
+                "description": "Angular Framework"
+            }
+
+        ]
+
+    },
+    "personalInfo" : {
+        "contactInformation": [
+            {
+                "platform": "phone",
+                "icon": "phone",
+                "url": "",
+                "value": "9736709374"
+            },
+            {
+                "platform": "email",
+                "icon": "email",
+                "url": "",
+                "value": "davegould41@gmail.com"
+            },
+            {
+                "platform": "linkedin",
+                "icon": "linkedin",
+                "url": "",
+                "value": "davegould41"
+            },
+            {
+                "platform": "facebook",
+                "icon": "phone",
+                "url": "",
+                "value": "Dave Gould"
+            }
+        ],
+        "hobbies": [
+            {
+                "title": "Snowboarding",
+                "description": "I love snowboarding, I go to vermont every year without fail. Even after shattering my clavicle into 5 pieces!"
+            },
+            {
+                "title": "Music",
+                "description": "Music will always be the one constant in my life. Metal. Electronic. Reggae."
+            },
+            {
+                "title": "Videogames",
+                "description": "Since my cousin introduced me to Mortal Kombat on Sega Genesis when I was four, till a couple minutes ago when I was playing Ori on my couch. I unwind with some videogames..."
+            },
+            {
+                "title": "Coding",
+                "description": "... not done, Coding is something that I put a lot of time into understanding when I was entering the workforce. So much so that I believe it is the one thing It doesnt feel like work to me and even on the weekends I will be working on a video game, or a project like this."
+            }
+        ],
+        "pets": {
+            "intro": "If you have pets, then you know they are a part of you. When I was thinking about my personal information this was one of the first things to pop into my head. So here it is on my list",
+            "petInfo": [
+                {
+                    "name": "Chon",
+                    "type": "Cat",
+                    "imageUrl": "",
+                    "description": "Chon is AWESOME"
+                },
+                {
+                    "name": "Denise",
+                    "type": "Cat",
+                    "imageUrl": "",
+                    "description": "Denise is AWESOME"
+                }
+            ] 
+        }
+    },
+    "notableAchievements" : {
+        "professionalAwards": [
+            {
+                "title": "Employee Spotlight",
+                "description": "",
+                "url": ""
+            },
+            {
+                "title": "Most Distinguished Team Award",
+                "description": "",
+                "url": ""
+            },
+            {
+                "title": "Leadership Award",
+                "description": "",
+                "url": ""
+            }
+        ],
+        "publicSpeaking": [
+            {
+                "title": "Women in Technology",
+                "description": "",
+                "attendance": 30,
+                "url": ""
+            },
+            {
+                "title": "Code for Kids",
+                "description": "",
+                "attendance": 30,
+                "url": ""
+            },
+            {
+                "title": "Townhall: VR Demo",
+                "description": "",
+                "attendance": 600,
+                "url": ""
+            }
+        ],
+        "professionalProjects": [
+            {
+                "title": "Sitebuilder",
+                "description": "",
+                "url": ""
+            },
+            {
+                "title": "Mobile App",
+                "description": "",
+                "url": ""
+            },
+            {
+                "title": "VR: User Navigational Patterns",
+                "description": "",
+                "url": ""
+            },
+            {
+                "title": "Account Opening API",
+                "description": "",
+                "url": ""
+            }
+        ],
+        "personalProjects": [
+            {
+                "title": "Corgi",
+                "description": "",
+                "url": ""
+            },
+            {
+                "title": "Beerpong VR",
+                "description": "",
+                "url": ""
+            },
+            {
+                "title": "Space Goat",
+                "description": "",
+                "url": ""
+            },
+            {
+                "title": "Digital Resume",
+                "description": "",
+                "url": ""
+            },
+            {
+                "title": "Building Arcade Machines",
+                "description": "",
+                "url": ""
+            },
+            {
+                "title": "Device Repair",
+                "description": "",
+                "url": ""
+            }
+        ]
+    },
+    "siteInfo" : {
+
+    }
+}
