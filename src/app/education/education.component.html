@@ -1,0 +1,48 @@
+<div class="education">
+    <!-- Acedemic Background -->
+    <section class="acedemic">
+        <h2>Acedemic Background</h2>
+        <ul class="image-logo-list">
+          <li *ngFor="let item of acedemicBackground" class="sce">
+            <div class="image-logo">
+              <a [href]="item.url" target="_blank">
+                <img [src]="item.logoUrl" alt="Logo">
+              </a>
+            </div>
+            <div class="content">
+              <span>{{ item.degree }} - </span>
+              <span>{{ item.major }}</span>
+              <br>
+              <span>{{ item.gpa }} </span>
+              <br>
+            </div>
+          </li>
+        </ul>
+    </section>
+    <!-- Online Learning -->
+    <section class="online-learning">
+        <h2>Online Learning</h2>
+        <ul class="image-logo-list">
+          <li *ngFor="let item of onlineLearning" class="sce">
+            <div class="image-logo">
+              <a [href]="item.courseUrl" target="_blank">
+                <img [src]="item.logoUrl" alt="">
+              </a>
+            </div>
+            <div class="content">
+              <span>{{ item.courseTitle }}</span>
+              <br>
+              <span class="secondary">{{ item.instructor }} </span>
+              <br>
+            </div>
+          </li>
+        </ul>
+    </section>
+    <!-- Online Learning -->
+    <section class="skills">
+        <h2>Skill Set</h2>
+        <div>
+            <app-badge-list [list]="skillSet"></app-badge-list>
+        </div>
+    </section>
+  </div>

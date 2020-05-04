@@ -1,0 +1,700 @@
+{
+    "header": {
+        "primaryIntro": "Dave Gould",
+        "secondaryIntro": "Passionate. Driven. Technical. Outgoing.",
+        "occupation": "Software Developer",
+        "greetings": [
+            "Hi!",
+            "Hello!", 
+            "Aloha!"
+        ],
+        "pictures": {
+            "random": true,
+            "pictureUrls" : [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7COzgyd9c3XX79ctIx7KfDzaGTY7fXi_jFlqepgvlO3cXhVCLuw&s"
+            ]
+        }
+    }, 
+    "aboutMe" : {
+        "intro": "Hello, my name is Dave Gould and I love coding, both professionally and on my spare time. I have been an active developer for 5 years and it has become a part who I am. I have created this digital resume, not only for you to get to know me, but also to show off some development skills."
+    },
+    "workExperience" : {
+        "intro": "My experience in the workforce has been such an amazing journey. I am so lucky to have had the oppertunities I've been given, and to have met such amazing people along the way. Below are the titles I have carried in reverse chronological order. I have put on many hats since my first job at 14 years old, although they might not be relevant, they are a part of who I am. Relevancy toggle is switched on to negate any irrelivent information and preserve my professional image as a software developer.;",
+        "experiences": [
+            {
+                "company": "Pershing",
+                "parentCompany": "BNY Mellon",
+                "location": "Jersey City, NJ",
+                "logoUrl": "https://logodix.com/logo/767613.png",
+                "url": "https://www.pershing.com",
+                "isRelevant": true,
+                "description": "Pershing LLC is a subsidiary of The Bank of New York Mellon. Pershing has nearly $1.9 trillion in assets under administration. The Bank of New York Mellon has more than $35.5 trillion in assets in custody.",
+                "titles" : [
+                    {
+                        "title": "Vice President - Application Development",
+                        "description": "",
+                        "dates": {
+                            "start" : "2/1/2020",
+                            "end": ""
+                        }
+                    },
+                    {
+                        "title": "Lead Developer - Application Development",
+                        "description": "",
+                        "dates": {
+                            "start" : "12/1/2017",
+                            "end": "2/1/2020"
+                        }
+                    },
+                    {
+                        "title": "Senior Developer - Application Development",
+                        "description": "",
+                        "dates": {
+                            "start" : "1/19/2016",
+                            "end": "12/1/2017"
+                        }
+                    }
+                ]
+
+            },
+            {
+                "company": "Finra",
+                "parentCompany": "",
+                "location": "New York, NY",
+                "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2cT21TYKKYr3nggJ0KIm_VW0qtuAUjmU31Wm-3HLoztrV6age&s",
+                "url": "https://www.finra.org/#/",
+                "isRelevant": true,
+                "description": "The Financial Industry Regulatory Authority, Inc. (FINRA) is a non-governmental organization that regulates member brokerage firms and exchange markets.",
+                "titles" : [
+                    {
+                        "title": "Software Development Intern",
+                        "description": "",
+                        "dates": {
+                            "start" : "2015",
+                            "end": "2016"
+                        }
+                    }
+                ]
+            },
+            {
+                "company": "AG Pizza",
+                "parentCompany": "",
+                "location": "Sussex, NJ",
+                "logoUrl": "https://cdn.shopify.com/s/files/1/1788/2177/products/a_g_pizza_restaurant_mer38895487_logo_1024x1024.jpg?v=1524182449",
+                "url": "https://agpizzaandrestaurant.com",
+                "isRelevant": false,
+                "description": "A G Pizza and Restaurant great food and service! Nice family atmosphere with friendly employees looking forward to serving you. Killer Pizza.",
+                "titles" : [
+                    {
+                        "title": "Pizza Delivery Specialist",
+                        "description": "",
+                        "dates": {
+                            "start" : "2013",
+                            "end": "2015"
+                        }
+                    }
+                ]
+            },
+            {
+                "company": "Chatterbox",
+                "parentCompany": "",
+                "location": "Sussex, NJ",
+                "logoUrl": "https://imgcc-a.akamaihd.net/LocFiles/31668/Images/2238955_N_00336_010_12_adLogo.png?width=300&height=162",
+                "url": "https://www.facebook.com/cboxdrivein",
+                "isRelevant": false,
+                "description": "1960's themed resturaunt.",
+                "titles" : [
+                    {
+                        "title": "Cook / Grill Master",
+                        "description": "",
+                        "dates": {
+                            "start" : "2010",
+                            "end": "2013"
+                        }
+                    }
+                ]
+            },
+            {
+                "company": "Kohl's",
+                "parentCompany": "",
+                "location": "Sussex, NJ",
+                "logoUrl": "https://www.logolynx.com/images/logolynx/17/17a97c3be86d7b48d0ebd2b3e4eba55e.png",
+                "url": "https://www.kohls.com",
+                "isRelevant": false,
+                "description": "Kohl's is an American department store retail chain, operated by Kohl's Corporation. With 1,158 locations, it is the largest department store chain in the United States as of February 2013.",
+                "titles" : [
+                    {
+                        "title": "Home Associate",
+                        "description": "",
+                        "dates": {
+                            "start" : "2008",
+                            "end": "2010"
+                        }
+                    }
+                ]
+            },
+            {
+                "company": "Dales Market",
+                "parentCompany": "",
+                "location": "Sussex, NJ",
+                "logoUrl": "https://media.superpages.com/media/photos/00/09/67/51/98/images/9b0760b8b5b3ea1a79b577069f3bef6f.png",
+                "url": "https://www.dalesmarket.com",
+                "isRelevant": false,
+                "description": "Legendary Grocery Store in the small town of Sussex, NJ.",
+                "titles" : [
+                    {
+                        "title": "Merchandise Expert",
+                        "description": "",
+                        "dates": {
+                            "start" : "2007",
+                            "end": "2008"
+                        }
+                    }
+                ]
+            },
+            {
+                "company": "Camp Iliff",
+                "parentCompany": "",
+                "location": "Sussex, NJ",
+                "logoUrl": "https://www.morrissussexresourcenet.org/rnMorris/cache/file/58578289-022C-49DA-A6F6E8DDF44273FD_medium.jpg",
+                "url": "https://www.morrissussexresourcenet.org/search/camp-iliff",
+                "isRelevant": false,
+                "description": "After School and sumer camp.",
+                "titles" : [
+                    {
+                        "title": "Camp Conselur",
+                        "description": "",
+                        "dates": {
+                            "start" : "2007",
+                            "end": "2008"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "educationBackground" : {
+        "acedemicBackground": [
+            {
+                "school": "New Jersey Institute of Technology",
+                "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/NJIT_Athletics_wordmark.png",
+                "url": "https://www.njit.edu",
+                "degree": "Bachelor of Science",
+                "major": "Information Technology",
+                "gpa": "3.7",
+                "isRelevant": true
+            },
+            {
+                "school": "Sussex County Community College",
+                "logoUrl": "https://hopatconglakeregionalnews.com/images/SussexCounthCC.jpg",
+                "url": "https://www.sussex.edu",
+                "degree": "Associate of Science",
+                "major": "Information Systems",
+                "gpa": "",
+                "isRelevant": true
+            }
+        ],
+        "onlineLearning": [
+            {
+                "platform": "Udemy",
+                "courseTitle": "Angular - The Complete Guide",
+                "logoUrl": "data:image/jpeg;base64,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",
+                "courseUrl": "https://www.udemy.com/course/the-complete-guide-to-angular-2",
+                "completion": "90%",
+                "instructor": "Maximillian Shartzmuller"
+            },
+            {
+                "platform": "Udemy",
+                "courseTitle": "Javascript, Understanding the Wierd Parts",
+                "logoUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAPEBIQERIWFhAWFRgXFhcXFRUVGBUZFhUYFhcfFhcYHTQgGRolHRUYLTEhJiktLi4uHyszODMtNygtLywBCgoKDg0OGxAQGisfHyU3LjUtNS03LS0tLSstLS0tLS0tKy0tKy8tLS4tLS0tLS0tLTUtLSstLS0tKy0tLS0tK//AABEIALQAtAMBIgACEQEDEQH/xAAbAAEAAwADAQAAAAAAAAAAAAAABQYHAQMEAv/EAD0QAAIBAwAGBwUGBQQDAAAAAAABAgMEEQUGEiExQRMiUWFxgZEHFDKhsSNCUpKy0RVicsHwJHPC4TNTgv/EABoBAQACAwEAAAAAAAAAAAAAAAAEBgEDBQL/xAApEQEAAgIBBAIBAgcAAAAAAAAAAQIDEQQFEiExE0FRMmEUIiNxgaGx/9oADAMBAAIRAxEAPwDcQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwaZ0pC1pOrPwS5yb4JHvM0180n0tfoovqU93jJ8fTcvU15L9tdpfC4/z5Yr9fZW13u3JuOxGPJYb9Xks2qesvveadRJVUs7uEl2rsxuMzJrU6o43tHHNyT/ACsi48tu7y7vL6fhjDM1jUw1cAE5VwAAAcZOQAAAAAAAAAAAAAAAAAB8VaiinKTwkstvkBGay6VVrQlP773QXbJ/txMlnJybbeW3lvtbJfWjTLu6za/8Ud0F3c34shyBmv3StnTeJ8OPdvchO6k0dq9pvlFSk/ytfVogi6eze0zKrWfJKK898vpE84o3eG3qGTs49pX0AHRU4InWTS6tKLnxm90F2t9vciVZl2uelPeLhxT+zp5iu9/efru8jXlv21TeDxvnyxE+o9o6vpm5nJydaee6Til4JbkXHUrWOdaXQVnmeMwlzeOKfeUA92gq7p3NGS/9kV5N4fybImPJMWWHl8PHbDMRGpj02MHETknqiAAAAAAAAAAAAfFSoopyk8Jb23yA+mzP9dNY+kbt6L6i+OS+81yXcc61a29JmjbvqcJT/F3R7u8pxFzZvqrv9O6dO/kyR/aAAER3w1HUi06K0g+c8zfnw+SRmNCk5yjBcZNJeLeEbRa0VThGC4RSS8EsErjV8zLhday6rWjuAOGyWryF1t0r7tbyaf2kurDxfF+SMpJzXDSnvNw0n9nTzGPf+J+v0IMgZr91ls6Zxvixbn3Idto8VIP+aP1R1HZbvrx/qX1NUe0/J+mW2Q4I5OIcEcnUUSQAAAAAAAAAACG1ttJ1rSpCG+W5pduy02vREyDExuNPeO80tFo+mHM77S0qVW1CLeFl9iXa3wRrFxoK1qS2p0YOT4vC3+PaeLWSNO2sqqpxUU47KUUl8T2eXiRf4fXmZd+vV+/Va18yy0AEV24TOp9t0t5SXKLcn/8AK3fPBq6M/wDZvb5q1an4YqP5nn/iaCT8EaoqvVr93I1+AgNcdLe7W7UX9pPqx7V2vyXzwTlSaim28JLLMm1k0q7qvKa+BdWC7lz8WZzX7atfTuN82Xz6j2ij1ysmqCrPhKezHvwm2/XHodFtQlVnGnFZlJpLzLlrrYxoWdvTjwjJLxey8vzIlabiZWLPyIpkpjj7/wCKScxeGmcA1x7S7epbfT4LwPo8+j6m3ShLtin6o+7ivGnFzm0opZbe5I6aizE92naCkLXVzuoQhFdA5KO/4nl42u5d3+K7IxW8W9NmbBfFrvjW3IAPTSAAAAAAAAFR9o1XFCnH8U1nwSf98FuKT7SvhoeMvojXl/RKZwI3yKwogAOcuTQPZtD7GrLtnj0in/cuJTvZvVXQ1Yc1PPk4pL9LJrWTTUbSk5bnUe6Ee1/sjoY5iKRKn8ul78q1YjzMoLX3TezH3Wm+tL432Ls8/p4lCPuvWlUlKcnmUnlvtbO7R1lO4qxpQ4yfoubfgiJe03ssfGwV4uHz/lavZ9onalK5kt0erDx+8/7epNa+223aSl+CUZfPZfykTej7SNCnGlBdWKwv++8+r22jVpzpy+GUWn5rBMjHqnareTlzfkfLP1P+mKg9GkbKdCrKlNdaLx4rk13M85z5jU6W6lovWJj7WzQ2ubt6KpSp7bisRaljdyT3ciH03p6tdvrvEFwguC8e1kWEj3OS0xpGrw8FLzkiPL26FoOpc0YLi5x9E8v5JmxrgVHUjV90V7xVWKkliMXxiu/vfyLeS8FO2vlX+p8iuXLqvqAAG5zQAAAAAAAAqXtFt3K3hNfdms+DTX1wW08elbJXFGdKXCSx4Pk/Jnm8brMN3HyfHlrf8MaB23dtOjOVOaxKLw/87DqObMaXatotG4erR2kattLbpS2W1h8Gmu9M+b69qV5udWTlLtf9lyPODO51p4+OkW79Rv8AIaVqXoL3en0tRfazX5Y8l49v/RGan6rvMbivHGN8IP6yX0ReSVhxa/mlwOp86L/0qT4+3IAJLionTmgaN2uusTXCS4r913FQudQ7hPqVISXftRfokzRQa7Y629peHm5sMarPhnVtqJXb69SEV3bUn6YRZ9Daq29s1LG3UX3pcvBcF9SeArirX1DOXnZ8satbwAA2IYAAAAAAAAAAAAAhNYNXKV4svq1Vwmvo1zRSrrUy8g+rFTXbGSX6sGoA12xVt7TePz82GNVnx+7MLbUy8m+tGMF/NJP9OS16D1Ro27U5/aVFwbWEvCPb3lkBiuGtWc3Uc+WNTOo/YQANqCAAAAAAAAAAAAAAAAAAAAAAIzWarKFnczg3GUaU2mnhpqLw01wZUPZZpOvXlc9NVnU2VTxtylLGXPOM+CMbGhAqntKvKtCyU6VSUJdLFZjJxeGpbsrluPr2cXlStZbdWpKcukmtqcnJ4WObGxaT4jVi3hSTfc0yIr62WEJbErmntcNzcl6pYM79mjzpKTXDYqfVDbOmvAjtJ6ctbVpV60ISfJvMvyrfg7NG6Wt7pN0KsZ444e9eK4oyw9oI/wDjdrtzp9PTU4Z205JOOzxznsOmz1lsq01Tp3EHNvCWcZf8uePkBLAiLrWexpT6OdxBTTw1nOH3tbl5ndeactaOz0leEVNbUW5LEl2p80BIg66FaM4xnFpwkk01waaymjx2GmrW4k4Ua0JySy1F5aWUs/NASAAAAAAAAAAAAACK1rX+huv9ip+hlH9jz690uezT+s/3NHu7eNWnOnL4ZxlF+Ek0/qY07LSOiLiUqcZLilNQ2qdSOefLkt3FHmWYXj2rv/Qx760f0zKf/EZ0dCwpwbXS15xk1+FJNrzePI89/d6T0tKEJQlJJ7lGGzBN7syfDzbLjpnU2b0XStqeJV6L2+zbcs7aTf8AVu8EPbPpHao6iW9zaQr15T26mWlFpKKTaXLe9xDezyapX1SXFQo1X47OP2O3QmsmkrKn7pG3csN7KnSqbUcvLSSxlZZ6dQdE16d/JV6M4p0pqW1FpdbDxnhzMCu6LuKFe6nWv3UnF5k1BZcpNrCe/dHGeHYkSmjbqjb6ToVLJVVQlKMZKaaaU3syXesYazz8Ds/h9/oW6lUpU3OnvipbLlCcG8ra2fhluXmuaLPq7rLpC9uKcXbqnbpt1J7EuCi8Lalu3vHBZApt9o9XWmKtBycVO4mm1va3t7vQ4121cjo6rTVOcpRnFyW1jaTi8PevIlraxrfxx1Oinse8Te1sS2cdbfnGMHt9q9nVq1Ld06c5pQnnZjKWN644Q0bRemdS6dDR0b2NWTns05yTS2cVHFbsb1hyXM6raxldaGlPjO1rScf9uUYOa8MvPkXPWO3nLQnRxhJz6G3WyotyypUs7uO7DOj2YWUo2danVpyipVZJxnFxzF04J7ny4mdG0RoTWTY0LXjn7WnmlHtxV+F+WZ/lJP2U6K6O3ncyXWqyxH+iG75yz6Iz+80TUheTsYPOaygt+572oN96UvLeblYWkaFKFKHwwiorwSx6iCXoAB6eQAAAAAAAAAAAAAAAAAAAAAAAA4lnG7jyOQBS9XNS6lC8leV6sak3tyWE1158W89zl6l0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//2Q==",
+                "courseUrl": "https://www.udemy.com/course/understand-javascript/",
+                "completion": "90%",
+                "instructor": "Anthony Alecia"
+            },
+            {
+                "platform": "Udemy",
+                "courseTitle": "Progressive Web Apps (PWA)",
+                "logoUrl": "data:image/jpeg;base64,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",
+                "courseUrl": "https://www.udemy.com/course/progressive-web-app-pwa-the-complete-guide/",
+                "completion": "90%",
+                "instructor": "Maximillian Shartzmuller"
+            },
+            {
+                "platform": "Udemy",
+                "courseTitle": "Learn and Understand NodeJS",
+                "logoUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAPEBIQERIWFhAWFRgXFhcXFRUVGBUZFhUYFhcfFhcYHTQgGRolHRUYLTEhJiktLi4uHyszODMtNygtLywBCgoKDg0OGxAQGisfHyU3LjUtNS03LS0tLSstLS0tLS0tKy0tKy8tLS4tLS0tLS0tLTUtLSstLS0tKy0tLS0tK//AABEIALQAtAMBIgACEQEDEQH/xAAbAAEAAwADAQAAAAAAAAAAAAAABQYHAQMEAv/EAD0QAAIBAwAGBwUGBQQDAAAAAAABAgMEEQUGEiExQRMiUWFxgZEHFDKhsSNCUpKy0RVicsHwJHPC4TNTgv/EABoBAQACAwEAAAAAAAAAAAAAAAAEBgEDBQL/xAApEQEAAgIBBAIBAgcAAAAAAAAAAQIDEQQFEiExE0FRMmEUIiNxgaGx/9oADAMBAAIRAxEAPwDcQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwaZ0pC1pOrPwS5yb4JHvM0180n0tfoovqU93jJ8fTcvU15L9tdpfC4/z5Yr9fZW13u3JuOxGPJYb9Xks2qesvveadRJVUs7uEl2rsxuMzJrU6o43tHHNyT/ACsi48tu7y7vL6fhjDM1jUw1cAE5VwAAAcZOQAAAAAAAAAAAAAAAAAB8VaiinKTwkstvkBGay6VVrQlP773QXbJ/txMlnJybbeW3lvtbJfWjTLu6za/8Ud0F3c34shyBmv3StnTeJ8OPdvchO6k0dq9pvlFSk/ytfVogi6eze0zKrWfJKK898vpE84o3eG3qGTs49pX0AHRU4InWTS6tKLnxm90F2t9vciVZl2uelPeLhxT+zp5iu9/efru8jXlv21TeDxvnyxE+o9o6vpm5nJydaee6Til4JbkXHUrWOdaXQVnmeMwlzeOKfeUA92gq7p3NGS/9kV5N4fybImPJMWWHl8PHbDMRGpj02MHETknqiAAAAAAAAAAAAfFSoopyk8Jb23yA+mzP9dNY+kbt6L6i+OS+81yXcc61a29JmjbvqcJT/F3R7u8pxFzZvqrv9O6dO/kyR/aAAER3w1HUi06K0g+c8zfnw+SRmNCk5yjBcZNJeLeEbRa0VThGC4RSS8EsErjV8zLhday6rWjuAOGyWryF1t0r7tbyaf2kurDxfF+SMpJzXDSnvNw0n9nTzGPf+J+v0IMgZr91ls6Zxvixbn3Idto8VIP+aP1R1HZbvrx/qX1NUe0/J+mW2Q4I5OIcEcnUUSQAAAAAAAAAACG1ttJ1rSpCG+W5pduy02vREyDExuNPeO80tFo+mHM77S0qVW1CLeFl9iXa3wRrFxoK1qS2p0YOT4vC3+PaeLWSNO2sqqpxUU47KUUl8T2eXiRf4fXmZd+vV+/Va18yy0AEV24TOp9t0t5SXKLcn/8AK3fPBq6M/wDZvb5q1an4YqP5nn/iaCT8EaoqvVr93I1+AgNcdLe7W7UX9pPqx7V2vyXzwTlSaim28JLLMm1k0q7qvKa+BdWC7lz8WZzX7atfTuN82Xz6j2ij1ysmqCrPhKezHvwm2/XHodFtQlVnGnFZlJpLzLlrrYxoWdvTjwjJLxey8vzIlabiZWLPyIpkpjj7/wCKScxeGmcA1x7S7epbfT4LwPo8+j6m3ShLtin6o+7ivGnFzm0opZbe5I6aizE92naCkLXVzuoQhFdA5KO/4nl42u5d3+K7IxW8W9NmbBfFrvjW3IAPTSAAAAAAAAFR9o1XFCnH8U1nwSf98FuKT7SvhoeMvojXl/RKZwI3yKwogAOcuTQPZtD7GrLtnj0in/cuJTvZvVXQ1Yc1PPk4pL9LJrWTTUbSk5bnUe6Ee1/sjoY5iKRKn8ul78q1YjzMoLX3TezH3Wm+tL432Ls8/p4lCPuvWlUlKcnmUnlvtbO7R1lO4qxpQ4yfoubfgiJe03ssfGwV4uHz/lavZ9onalK5kt0erDx+8/7epNa+223aSl+CUZfPZfykTej7SNCnGlBdWKwv++8+r22jVpzpy+GUWn5rBMjHqnareTlzfkfLP1P+mKg9GkbKdCrKlNdaLx4rk13M85z5jU6W6lovWJj7WzQ2ubt6KpSp7bisRaljdyT3ciH03p6tdvrvEFwguC8e1kWEj3OS0xpGrw8FLzkiPL26FoOpc0YLi5x9E8v5JmxrgVHUjV90V7xVWKkliMXxiu/vfyLeS8FO2vlX+p8iuXLqvqAAG5zQAAAAAAAAqXtFt3K3hNfdms+DTX1wW08elbJXFGdKXCSx4Pk/Jnm8brMN3HyfHlrf8MaB23dtOjOVOaxKLw/87DqObMaXatotG4erR2kattLbpS2W1h8Gmu9M+b69qV5udWTlLtf9lyPODO51p4+OkW79Rv8AIaVqXoL3en0tRfazX5Y8l49v/RGan6rvMbivHGN8IP6yX0ReSVhxa/mlwOp86L/0qT4+3IAJLionTmgaN2uusTXCS4r913FQudQ7hPqVISXftRfokzRQa7Y629peHm5sMarPhnVtqJXb69SEV3bUn6YRZ9Daq29s1LG3UX3pcvBcF9SeArirX1DOXnZ8satbwAA2IYAAAAAAAAAAAAAhNYNXKV4svq1Vwmvo1zRSrrUy8g+rFTXbGSX6sGoA12xVt7TePz82GNVnx+7MLbUy8m+tGMF/NJP9OS16D1Ro27U5/aVFwbWEvCPb3lkBiuGtWc3Uc+WNTOo/YQANqCAAAAAAAAAAAAAAAAAAAAAAIzWarKFnczg3GUaU2mnhpqLw01wZUPZZpOvXlc9NVnU2VTxtylLGXPOM+CMbGhAqntKvKtCyU6VSUJdLFZjJxeGpbsrluPr2cXlStZbdWpKcukmtqcnJ4WObGxaT4jVi3hSTfc0yIr62WEJbErmntcNzcl6pYM79mjzpKTXDYqfVDbOmvAjtJ6ctbVpV60ISfJvMvyrfg7NG6Wt7pN0KsZ444e9eK4oyw9oI/wDjdrtzp9PTU4Z205JOOzxznsOmz1lsq01Tp3EHNvCWcZf8uePkBLAiLrWexpT6OdxBTTw1nOH3tbl5ndeactaOz0leEVNbUW5LEl2p80BIg66FaM4xnFpwkk01waaymjx2GmrW4k4Ua0JySy1F5aWUs/NASAAAAAAAAAAAAACK1rX+huv9ip+hlH9jz690uezT+s/3NHu7eNWnOnL4ZxlF+Ek0/qY07LSOiLiUqcZLilNQ2qdSOefLkt3FHmWYXj2rv/Qx760f0zKf/EZ0dCwpwbXS15xk1+FJNrzePI89/d6T0tKEJQlJJ7lGGzBN7syfDzbLjpnU2b0XStqeJV6L2+zbcs7aTf8AVu8EPbPpHao6iW9zaQr15T26mWlFpKKTaXLe9xDezyapX1SXFQo1X47OP2O3QmsmkrKn7pG3csN7KnSqbUcvLSSxlZZ6dQdE16d/JV6M4p0pqW1FpdbDxnhzMCu6LuKFe6nWv3UnF5k1BZcpNrCe/dHGeHYkSmjbqjb6ToVLJVVQlKMZKaaaU3syXesYazz8Ds/h9/oW6lUpU3OnvipbLlCcG8ra2fhluXmuaLPq7rLpC9uKcXbqnbpt1J7EuCi8Lalu3vHBZApt9o9XWmKtBycVO4mm1va3t7vQ4121cjo6rTVOcpRnFyW1jaTi8PevIlraxrfxx1Oinse8Te1sS2cdbfnGMHt9q9nVq1Ld06c5pQnnZjKWN644Q0bRemdS6dDR0b2NWTns05yTS2cVHFbsb1hyXM6raxldaGlPjO1rScf9uUYOa8MvPkXPWO3nLQnRxhJz6G3WyotyypUs7uO7DOj2YWUo2danVpyipVZJxnFxzF04J7ny4mdG0RoTWTY0LXjn7WnmlHtxV+F+WZ/lJP2U6K6O3ncyXWqyxH+iG75yz6Iz+80TUheTsYPOaygt+572oN96UvLeblYWkaFKFKHwwiorwSx6iCXoAB6eQAAAAAAAAAAAAAAAAAAAAAAAA4lnG7jyOQBS9XNS6lC8leV6sak3tyWE1158W89zl6l0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//2Q==",
+                "courseUrl": "https://www.udemy.com/course/understand-nodejs/",
+                "completion": "90%",
+                "instructor": "Anthony Alecia"
+            },
+            {
+                "platform": "Udemy",
+                "courseTitle": "Ionic 5",
+                "logoUrl": "data:image/jpeg;base64,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",
+                "courseUrl": "https://www.udemy.com/course/ionic-2-the-practical-guide-to-building-ios-android-apps/",
+                "completion": "90%",
+                "instructor": "Maximillian Shartzmuller"
+            },
+            {
+                "platform": "Udemy",
+                "courseTitle": "Spring Framework Master Class",
+                "logoUrl": "data:image/jpeg;base64,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",
+                "courseUrl": "https://www.udemy.com/course/spring-tutorial-for-beginners/",
+                "completion": "90%",
+                "instructor": "in28Minutes Official"
+            },
+            {
+                "platform": "Udemy",
+                "courseTitle": "Java Persistance: Hibernate and JPA",
+                "logoUrl": "data:image/jpeg;base64,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",
+                "courseUrl": "https://www.udemy.com/course/hibernate-and-jpa-fundamentals/",
+                "completion": "90%",
+                "instructor": "Deshraj Singh Kiran"
+            },
+            {
+                "platform": "The New Boston",
+                "courseTitle": "Java Complete Course - The New Boston",
+                "logoUrl": "https://i.pinimg.com/originals/de/1c/91/de1c91788be0d791135736995109272a.png",
+                "courseUrl": "https://www.udemy.com/course/the-complete-guide-to-angular-2",
+                "completion": "90%",
+                "instructor": "Bucky Roberts (Absolute Legend)"
+            },
+            {
+                "platform": "Youtube",
+                "courseTitle": "Design Patterns",
+                "logoUrl": "https://i.pinimg.com/originals/de/1c/91/de1c91788be0d791135736995109272a.png",
+                "courseUrl": "https://www.youtube.com/user/thenewboston",
+                "completion": "90%",
+                "instructor": "Derek Banas"
+            },
+            {
+                "platform": "Youtube",
+                "courseTitle": "Java Video Tutorial",
+                "logoUrl": "https://i.pinimg.com/originals/de/1c/91/de1c91788be0d791135736995109272a.png",
+                "courseUrl": "https://www.youtube.com/user/derekbanas",
+                "completion": "90%",
+                "instructor": "Derek Banas"
+            }
+        ],
+        "skillSet": [
+            {
+                "name": "Javascript",
+                "description": ""
+            },
+            {
+                "name": "Typescript",
+                "description": ""
+            },
+            {
+                "name": "Angular",
+                "description": ""
+            },
+            {
+                "name": "AngularJs",
+                "description": ""
+            },
+            {
+                "name": "Dojo",
+                "description": ""
+            },
+            {
+                "name": "JQuery",
+                "description": ""
+            },
+            {
+                "name": "Node",
+                "description": ""
+            },
+            {
+                "name": "Gulp",
+                "description": ""
+            },
+            {
+                "name": "HTML",
+                "description": ""
+            },
+            {
+                "name": "CSS",
+                "description": ""
+            },
+            {
+                "name": "SCSS",
+                "description": ""
+            },
+            {
+                "name": "Java",
+                "description": ""
+            },
+            {
+                "name": "Spring",
+                "description": ""
+            },
+            {
+                "name": "JPA (Hibernate)",
+                "description": ""
+            },
+            {
+                "name": "Maven",
+                "description": ""
+            },
+            {
+                "name": "Express",
+                "description": ""
+            },
+            {
+                "name": "Python",
+                "description": ""
+            },
+            {
+                "name": "Junit",
+                "description": ""
+            },
+            {
+                "name": "Karma",
+                "description": ""
+            },
+            {
+                "name": "Puppeteer",
+                "description": ""
+            },
+            {
+                "name": "Cypress",
+                "description": ""
+            },
+            {
+                "name": "SQL",
+                "description": ""
+            },
+            {
+                "name": "MongoDB",
+                "description": ""
+            },
+            {
+                "name": "Github",
+                "description": ""
+            },
+            {
+                "name": "SVN",
+                "description": ""
+            },
+            {
+                "name": "Unity",
+                "description": ""
+            },
+            {
+                "name": "OculusSDK",
+                "description": ""
+            },
+            {
+                "name": "Maya",
+                "description": ""
+            },
+            {
+                "name": "Cordova",
+                "description": ""
+            },
+            {
+                "name": "Jenkins",
+                "description": ""
+            },
+            {
+                "name": "JIRA",
+                "description": ""
+            }
+        ]
+
+    },
+    "personalInfo" : {
+        "generalInfo" : {
+            "birthDate": "12/04/1991",
+            "address": "212 Angelique st, weehawken NJ, 07086"
+        },
+        "contactInformation": [
+            {
+                "platform": "phone",
+                "icon": "fa fa-phone-square",
+                "url": "",
+                "value": "9736709374"
+            },
+            {
+                "platform": "linkedin",
+                "icon": "fa fa-linkedin",
+                "url": "https://www.linkedin.com/in/davegould41",
+                "value": "davegould41"
+            },
+            {
+                "platform": "email",
+                "icon": "fa fa-envelope-square",
+                "url": "davegould41@gmail.com",
+                "value": "davegould41@gmail.com"
+            },
+            {
+                "platform": "facebook",
+                "icon": "fa fa-facebook-square",
+                "url": "https://www.facebook.com/dave.gould.587",
+                "value": "dave.gould.587"
+            }
+        ],
+        "hobbies": [
+            {
+                "name": "Snowboarding",
+                "description": "I love snowboarding! I take a trip every year to vermont to hit the slopes with my buddies. Even after shattering my clavicle into 5 pieces its still my favorite thing to do."
+            },
+            {
+                "name": "Music",
+                "description": "Music will always be the one constant in my life. My favorite type of music is metal. My girlfriend hates it! I play guitar and love jamming with my friends. I also like reggae and electronic music. "
+            },
+            {
+                "name": "Videogames",
+                "description": "Since my cousin introduced me to Mortal Kombat on Sega Genesis when I was four, Ive been obsessed with videogames. I recently beat Celeste and Ori, working on Cuphead right now. All time favorite game is Diablo II."
+            },
+            {
+                "name": "Coding",
+                "description": "Coding is something that I put a lot of time into understanding, as a result it is something I love to do even after work hours. Everything we enjoy, our phone applications, videogames, its all software. I like creating videogames and have a lot of other software related ideas I have yet to implement. "
+            }
+        ],
+        "pets": {
+            "intro": "If you have pets, then you know they are a part of you. When I was thinking about my personal information this was one of the first things to pop into my head. So here it is on my list",
+            "petInfo": [
+                {
+                    "name": "Chon",
+                    "type": "Cat",
+                    "icon": "data:image/png;base64,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",
+                    "description": "Although Chon was named after an instrumental band, he is the most vocal cat I've ever met."
+                },
+                {
+                    "name": "Denise",
+                    "type": "Cat",
+                    "icon": "data:image/png;base64,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",
+                    "description": "Denise loves water and sitting on my recliner chair!"
+                }
+            ] 
+        }
+    },
+    "notableAchievements" : {
+        "professionalAwards": [
+            {
+                "name": "Employee Spotlight",
+                "description": "An 'Employee of the Month' type of an award for month of November. This is globally! So a very big honor.",
+                "url": ""
+            },
+            {
+                "name": "Most Distinguished Team Award",
+                "description": "I got this award as part of my NXI Account Opening API efforts. Came with a glass star with my name engraved on it. Fancy.",
+                "url": ""
+            },
+            {
+                "name": "Leadership Award",
+                "description": "This award was given to my team recently for our efforts on the Sitebuilder project. An article will be comming in some journal, maybe Ill add the link here when its released.",
+                "url": ""
+            }
+        ],
+        "publicSpeaking": [
+            {
+                "name": "Women in Technology",
+                "description": "Motivational speach to women trying to re-enter the work force, from the perspective of someone who has entered the workforce relatively recently.",
+                "attendance": 30,
+                "url": [
+                    {
+                        "displayName" : "Women In Technology",
+                        "url": "https://www.bnymellon.com/us/en/who-we-are/diversity-inclusion/supporting-women-in-technology.jsp"
+                    }
+                ]
+            },
+            {
+                "name": "Code for Kids",
+                "description": "Voulenteered to teach children the concepts of boolean expressions using a fun game. With BNY Mellon’s support this past school year, over 3,500 students in 55 schools across the country took part in over 5,000 hours of high-quality Hour of Code experiences through City Year.",
+                "attendance": 30,
+                "url": [
+                    {
+                        "displayName" : "Hour of Code",
+                        "url": "https://www.bnymellon.com/us/en/who-we-are/global-philanthropy/giving-students-a-chance-to-code-with-city-year.jsp"
+                    }
+                ]
+            },
+            {
+                "name": "Townhall: VR Demo",
+                "description": "Demoed my VR application internally at a town hall to over 600 developers!",
+                "attendance": 600,
+                "url": ""
+            }
+        ],
+        "professionalProjects": [
+            {
+                "name": "Pershing Portal Framework",
+                "introduction": "Our internal Angular Framework, an ecosystem of core angular/node libraries, used by every front-end system in our company.",
+                "description": "My responsibilities for this project was to contribute common components / functionality to this centrialized layer for other features to utilize. When we got feature requests, I would anayze the best approach, create design doc / usage doc, clear it with my peers / managers, contribute, and support any usage questions / issues. Before joining, the existing framework developers were very picky about letting other (non-framework) developers contribute, I encouraged a more open source environment allowing other teams to contribute and send us PR's to achieve a more scalable model. It has worked out well so far!",
+                "url": ""
+            },
+            {
+                "name": "Sitebuilder",
+                "introduction": "An Application Similar to WIX or Squarespace where a user can create a branded instance of our interal platforms, Netx360 and NetxInvestor. Its also a developer admin tool!",
+                "description": "This was the project that streched my technical and interpersonal leadership skills the most! My Director pulled me into this project that was in danger of failing and gave me less than 3 months to turn it around in time for our demo with the CEO. I worked Day and night to understand the existing design. First I identified the major refactories that would be needed to take us out of the technical defecit we were in (there was 2 junior developers working on this for over a year). Then I restructured our sprint to prioritize the key items we would need to implement to achieve our goal. Then I shared the vision and provided guidence to the younger developers to grow their understanding so we could work in synergy. This project made its deadline for the Demo and recieved very positive responses. They have kept me on and we are now working on getting it to production!",
+                "url": ""
+            },
+            {
+                "name": "VR: User Navigational Patterns",
+                "introduction": "A VR Experience to visualize the navigational patterns of our users within our sites, which was demoed at an official conference with thousands of attendees. Visuialized using stars and planets. (Implemented using Oculus SDK and Unity)",
+                "description": "This was one of the most exciting projects for me because it merged my professional development skills with my interests in personal software development. Not many people in my field can say they created a VR app for their company that was demoed to thousands of people! For this project I was the sole contributer to the VR experience and I worked with one data scientist, who did the clustering of our user navigational patterns to get the data I needed. I created a rendering engine that rendered the nodes of our user data as planets and stars in a 3D space. On hovering over an item with the gaze pointer you were able to view the edges (constilations) that connected the nodes, and details of the node its-self node through a beautiful virtual user interface. The user interface was rendered in 3D space with a closeup of the beautiful planet textures I used.",
+                "url": ""
+            },
+            {
+                "name": "Netx360 Mobile Hybrid",
+                "introduction": "A mobile channel for our web application that can be found on the Android and IOS app store.",
+                "description": "The goals for this project was to offer a performant mobile experience that was also scalable. We were in the midst of re-writing our angular web application, and it was not within the realm of feasibility to do another full re-write for our mobile channel. Thus we needed a way to build our web application to mobile. I remember this project being a political battle because the mobile team had been working on it for a year, without success, and I came in to try to help and completely redesigned what they had been working on. The problem was they were insisting that for mobile, the top priority was look and feel... Over scalability. Their model was to do a re-write of all components (hundreds) to use ionic component library which could emulate the ui widgets of the operating system it was running on (android, ios). Their codebase was getting very big and my Director was not impressed with the scalability concerns. I came to the conclusion that we could completely re-use our web-mobile experience, but build it in AOT, allow a new angular service to allow for features to invoke native functions such as camera, gps, and if we wanted to overwrite some device specific styles, iconography we could be feel to do so. I wrote the node script which pulls and builds the mobile app in one node script, and outputs an apk and ipa file which can be pushed to the appstore. I weighed the pros and cons to my approach v.s. theirs and got buy in from my director and managing director, to give back to the mobile team. As a result we now have a scalabile solution that works for not only one of our products but our other platform NXI as well.",
+                "url": ""
+            },
+            {
+                "name": "Netx360 Wealth",
+                "introduction": "A complete rewrite of our legacy Netx360 stock trading application",
+                "description": "My role for this project was to move the needle to get us in a position where we could retire our old platform (of 15 years). This involved desigining new ways to tackle old problems, replacing components, retiring un-needed functionality. This was a great experience for me because re-writing legacy applications was something I was already familiar with so I was able to eccell and ask the right questions to promote innovation. Many times people fall into the trap of replicating the same old functionality in a new application, because its safer. I always went to a situation with asking why, and it got me in some interesting place in my designs. Aside from standard application development I also got outside my comfort zone in the networking aspect, I implemented a new routing mechanism known as service discovery which is a replacement for DNS based routing, where inorder to interact with another service you need to hardcode the domain urls.",
+                "url": ""
+            },
+            {
+                "name": "Account Opening API",
+                "introduction": "Lead the effort to expose our account opening service into rest API’s to be used by multiple internal platforms.",
+                "description": "For this effort my role was to support another team in creating accounts via REST API's. Prior to this, our account opening platform did not have any REST API's our service was only used by our account opening front end and they were coupled together.. For this effort, I introduced a new layer which was a spring microservice which interacted with our monolithic service via spring remoting, and exposed all of the functionality for creating accounts over HTTP.",
+                "url": ""
+            },
+            {
+                "name": "Digital Advice",
+                "introduction": "Lead the effort to integrate Digital Advice with our account opening process.",
+                "description": " After opening an account I introduced new async process which listens to events (similar to kafka) sent my Digital Advice team, when triggered will merge Digital Advice Metadata with Account metadata, store and call multiple external systems. Introduced scheduler to handle any downstream system outage usecases.",
+                "url": ""
+            },
+            {
+                "name": "Client On Boarding",
+                "introduction": "Re-write of our existing Account Opening platform.",
+                "description": "I worked full stack on this project for about 2 years my first project in pershing. Initally we were re-writing this application from server generated jsp to a legacy javascript framework called DOJO. Unhappy with my daily experience at work learning dojo, I took my laptop home with me every weekend and bagan porting to Angular 2, just to learn the newer framework for myself. After a cetrian amount of time, I shared it with my manager who after hearing the buzzwords from our leaders saying we will be moving to Agular in a couple years, encouraged me to keep going. Got recognized for my hard work outside of work and offered a job on another, larger scale team.",
+                "url": ""
+            }
+        ],
+        "implementations": [
+            {
+              "name": "Angular Element Page Instantiation",
+              "description": ""
+            },
+            {
+              "name": "AOT Page Instantiation",
+              "description": ""
+            },
+            {
+              "name": "Nativescript Mobile Development POC",
+              "description": ""
+            },
+            {
+              "name": "Rendering Engine Deep Refactory",
+              "description": ""
+            },
+            {
+              "name": "Component Projection",
+              "description": "Display component within another component with additional functionality collapsible title bar, overflow handling, entitlement"
+            },
+            {
+              "name": "Component Registration",
+              "description": ""
+            },
+            {
+              "name": "Dashboard Framework",
+              "description": ""
+            },
+            {
+              "name": "Interstitial Loader Component",
+              "description": ""
+            },
+            {
+              "name": "Dialog Service / Dialog Component",
+              "description": ""
+            },
+            {
+              "name": "Reusable IFrame Component (Angular)",
+              "description": ""
+            },
+            {
+              "name": "JWT Login for testbeds",
+              "description": ""
+            },
+            {
+              "name": "Portal Feature Blacklist Configuration",
+              "description": ""
+            },
+            {
+              "name": "Portal Common (Deep refactory / core centialization)",
+              "description": ""
+            },
+            {
+              "name": "Service Discovery / Service Gateway",
+              "description": ""
+            },
+            {
+              "name": "Smoke Tests",
+              "description": ""
+            },
+            {
+              "name": "Asynchronious Account Holder[s] Display",
+              "description": ""
+            },
+            {
+              "name": "Sitebulder Device Type Inheritance Logic",
+              "description": ""
+            },
+            {
+              "name": "Abstrating Dependencies to Metadata",
+              "description": ""
+            },
+            {
+              "name": "Progromatically determining Dependencies",
+              "description": ""
+            },
+            {
+              "name": "Hierarchial Site Config (Site to Site inheritance Logic)",
+              "description": ""
+            },
+            {
+              "name": "Account Data Reconcilation Script (Python)",
+              "description": ""
+            },
+            {
+              "name": "Sitebuilder Synchup Scripts (node)",
+              "description": ""
+            },
+            {
+              "name": "Sitebuilder Enterprise Workflow and Approval process",
+              "description": ""
+            },
+            {
+              "name": "VR Experience, User Navigation Patterns",
+              "description": ""
+            }
+        ],
+        "personalProjects": [
+            {
+                "name": "Corgi",
+                "introduction": "You are a sheep-herding Corgi living on a farm, and the farmer forgot to lock the gate! Its your job to herd the sheep back to the farm.",
+                "description": "3D Mario64 style corgi adventure. (In Development)",
+                "url": ""
+            },
+            {
+                "name": "Beerpong VR",
+                "introduction": "Play beerpong with your friends or online in VR!",
+                "description": "Developed when oculus was just becomming popular, 6 cup, 10 cup, ..n cup (dynamic cup instantiation). Multiplayer + Matching capibilities via PUN (Photon Unity Network). Fun project, never pushed to store.",
+                "url": ""
+            },
+            {
+                "name": "Space Goat",
+                "introduction": "You are a goat that was put on Earth to protect humankind from an evil alien goat race",
+                "description": "A 2.5 platformer that places a heroic goat in the hands of our user. Defeat enemies to fill your power meter, which triggers our evolution system to become more power versions of your previous self. (Basic mechanics in place game unfinished)",
+                "url": ""
+            },
+            {
+                "name": "Digital Resume",
+                "introduction": "Digital Resume Templating Platform, Driven by one JSON File!",
+                "description": "This project was very fun and only took me a day and a half!",
+                "url": ""
+            }
+        ]
+    },
+    "siteInfo" : {
+
+    }
+}

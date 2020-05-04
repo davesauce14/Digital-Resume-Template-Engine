@@ -1,0 +1,36 @@
+<section class="workExperience">
+    <div>
+        <h1>Work Experience</h1>
+        <p>{{ workExperience.intro }}</p>
+    </div>
+    <div class="revelency">
+        <mat-slide-toggle 
+            class="revelency-toggle"
+            [checked]="relevancyToggle"
+            (toggleChange)="toggleRelevancy()"
+        > Relevancy </mat-slide-toggle>
+    </div>
+    <div *ngFor="let experience of workExperience.experiences" class="experiences">
+        <div *ngIf="relevancyToggle || experience.isRelevant" class="experience">
+            <div class="experience-banner">
+                <div class="image-logo">
+                    <img [src]="experience.logoUrl" alt="company logo">
+                </div>
+                <div class="experience-content">
+                    <span *ngIf="experience.parentCompany" class="parentCompany">{{ experience.parentCompany }} | </span>
+                    <span>{{ experience.company }}</span>
+                    <span class="secondary location">{{ experience.location }}</span>
+                </div>
+            </div>
+            <div>
+                <p class="secondary">{{ experience.description }}</p>
+            </div>
+            <ul class="titles">
+                <li *ngFor="let title of experience.titles" class="job-title">
+                    <div mat-line>{{ title.title }}</div>
+                    <div class="secondary"> {{ title.dates.start }} - {{ (title.dates.end) ? title.dates.end : 'Present' }}</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>

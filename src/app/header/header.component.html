@@ -1,0 +1,28 @@
+<div class="banner"></div>
+<header>
+    <div class="intro">
+        <h1>{{ header.primaryIntro }}</h1>
+        <span>{{ header.secondaryIntro }}</span>
+        <br>
+        <span class="secondary">{{ header.occupation }}</span>
+        <br><br>
+    </div>
+    <div class="picture">
+        <p *ngIf="shouldDisplayGreeting" class="speech">{{ header.greetings[greetingIndex] }}</p>
+        <img 
+            [src]="header.pictures.pictureUrls[0]" 
+            (click)="displayGreeting()"
+            alt="Resume Photos">
+    </div>
+    <div class="line"></div>
+    <div class="contacts">
+        <app-contact-info></app-contact-info>
+    </div>
+    <div class="intro2">
+        <h1>{{ header.primaryIntro }}</h1>
+        <span>{{ header.secondaryIntro }}</span>
+        <br>
+        <span class="secondary">{{ header.occupation }}</span>
+        <br><br>
+    </div>
+</header>

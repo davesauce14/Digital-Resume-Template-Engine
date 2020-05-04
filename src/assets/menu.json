@@ -1,0 +1,26 @@
+[
+    {
+        "displayName": "About Me",
+        "url": "home"
+    },
+    {
+        "displayName": "Work Experience",
+        "url": "experience"
+    },
+    {
+        "displayName": "Skills / Education",
+        "url": "skills"
+    },
+    {
+        "displayName": "Projects",
+        "url": "projects"
+    },
+    {
+        "displayName": "Personal",
+        "url": "personal"
+    },
+    {
+        "displayName": "Site Details",
+        "url": "site-details"
+    }
+]

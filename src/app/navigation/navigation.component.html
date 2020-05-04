@@ -1,0 +1,7 @@
+<section class="navigation">
+    <nav>
+        <button *ngFor="let menu of menuConfig" [routerLink]="[menu.url]" routerLinkActive="selected">
+            {{ menu.displayName }}
+        </button>
+    </nav>
+</section>

@@ -1,1 +1,377 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+// Import library functions for theme creation.
+@import '~@angular/material/theming';
+
+// Include non-theme styles for core.
+@include mat-core();
+
+// Define your application's custom theme.
+// $primary: mat-palette($mat-);
+// $accent:  mat-palette($mat-pink, A200, A100, A400);
+// $theme: mat-light-theme($primary, $accent);
+
+// Include theme styles for Angular Material components.
+// @include angular-material-theme($theme);
+
+.container {
+    width: 98vw;
+    margin: auto;
+}
+header {
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.secondary {
+    color: #6c757d
+
+}
+
+section, header {
+    background-color: white;
+    // transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+    // display: block;
+    // position: relative;
+    // padding: 16px;
+    // border-radius: 4px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+section.navigation {
+    padding: 0px;
+    display: none;
+
+    nav {
+        width:100%;
+        display:flex; 
+        flex-direction:row;
+    }
+    
+    button {
+        flex-grow: 1;
+        padding: 10px;
+        border: none;
+        border-right: 1px solid lightgrey;
+        outline: none;
+        font-size: 12px;
+        font-weight: 600;
+        cursor: pointer;
+        
+        &:hover {
+            background-color: #c6cbe25d;
+            color: black;
+        }
+
+        &.selected {
+            background-color: #3f51b5cf;
+            color: white;
+        
+        }
+    }
+}
+
+.banner {
+    position: absolute;
+    background-color: #3f51b5;
+    height: 28vh;
+    width: 100%;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+}
+
+.picture {
+    img {
+        cursor: pointer;
+    }
+}
+
+.line {
+    width: 65%;
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+    margin: 15px auto;
+}
+
+.contact {
+    width: 50%;
+    left: 10%;
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    .icon {
+        padding-right: 10px;
+    }
+    font-size: 11px;
+}
+
+
+
+.revelency {
+    overflow: hidden;
+
+    .revelency-toggle {
+        float: right
+    }
+}
+
+.image-logo-list {
+    padding: 0px;
+    li {
+        width: 100%;
+        display: inline-block ;
+    }
+}
+.image-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: double 2px #bfbfbf;
+    margin-right: 10px;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+
+    img {
+        width: 45px;
+        height: 45px;
+        padding-top: 2px;
+    }
+}
+
+
+.experience {
+    padding: 20px 10px 0px 10px;
+    border-bottom: 1px solid lightgray;
+
+    span {
+        font-size: 20px;
+        position: relative;
+        bottom: 17px;
+    }
+
+    .location {
+        // float: right;
+        // padding-top: 39px;
+        font-size: 15px;
+        display: block;
+        font-size: 12px;
+    }
+}
+.experience-banner{
+    padding-bottom: 10px;
+}
+.experience-content {
+    display: inline-block;
+    width: 70%;
+    top: 7px;
+    position: relative;
+}
+
+::ng-deep .mat-list .mat-list-item .mat-line{
+    word-wrap: break-word;
+   white-space: pre-wrap;
+}
+
+ul.general-list {
+    display: inline;
+}
+
+ul.general-list .list-item{
+    padding: 15px;
+}
+
+ul.general-list .title{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.image-logo {
+    display: inline-block;
+}
+.content {
+    display: inline-block;
+    position: relative;
+    top: -11px;
+}
+
+.pets .content {
+    top: 0px;
+    width: 70%;
+}
+.pets .sce {
+    padding: 0px 0px 15px;
+}
+ul.titles li {
+    position:relative; /* so that pseudoelements are positioned relatively to their "li"s*/
+    /* use padding-bottom instead of margin-bottom.*/ 
+    margin-bottom: 0; /* This overrides previously specified margin-bottom */
+    padding-bottom: 2.5em;
+    list-style: none;
+}
+
+ul.titles li:after {
+    /* bullets */
+    content: '•';
+    position: absolute;
+    left: -20px;
+    top: 0px;
+    font-size: 2em;
+}
+
+ul.titles li:before {
+    /* lines */
+    content:"";
+    position: absolute;
+    left: -16px; /* adjust manually */
+    border-left: 1px solid #00000047;
+    height: 80%;
+    width: 1px;
+    top: 21%;
+}
+
+ul.titles li:first-child:before {
+   /* first li's line */
+   top: 6px; /* moves the line down so that it disappears under the bullet. Adjust manually */
+   top: 21%;
+}
+
+ul.titles li:last-child:before {
+    /* last li's line */
+    display: none;
+   height: 6px; /* shorten the line so it goes only up to the bullet. Is equal to first-child:before's top */
+}
+
+.intro2 {
+    display: none;
+}
+
+p.speech {
+    position: absolute;
+    left: 3%;
+    width: 155px;
+    height: 84px;
+    text-align: center;
+    line-height: 88px;
+    background-color: #fff;
+    border: 3px solid #666;
+    border-radius: 30px;
+    box-shadow: 2px 2px 4px #888;
+  }
+
+  p.speech:before {
+    content: " ";
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 94px;
+    z-index: 0;
+    top: 84px;
+    border: 15px solid;
+    border-color: #666 #666 transparent transparent;
+  }
+  p.speech:after {
+    content: " ";
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 100px;
+    z-index: 0;
+    top: 84px;
+    border: 10px solid;
+    border-color: #fff #fff transparent transparent;
+  }
+@media(min-width: 430px) {
+    .contact {
+        font-size: inherit;
+        left: 13%;
+    }
+}
+@media(min-width: 550px) {
+    section.navigation {
+        display: block;
+    }
+    .container {
+        width: 80vw;
+    }
+    .contact {
+        left: 13%;
+    }
+    .pets .content {
+        top: -11px;
+    }
+}
+@media(min-width: 700px) {
+    
+    header {
+        overflow: hidden;
+    }
+    .picture {
+        float: left;
+        width: 40%
+    }
+    .intro {
+        float: right;
+        width: 50%;
+        text-align: left;
+    }
+    .contacts {
+        float: right;
+        width: 50%;
+        .contact {
+            width: 100%;
+            left: 0%;
+        }
+    }
+    .line {
+        display: none;
+    }
+}
+
+@media(min-width: 1000px) {
+    
+    .picture {
+        width: 30%
+    }
+    .intro2 {
+        display: inherit;
+        float: right;
+        width: 40%;
+        text-align: left;
+        position: relative;
+        top: 56px;
+
+        h1 {
+            font-size: 2.5em;
+        }
+        span {
+            font-size: 1.2em;
+        }
+    }
+    .intro {
+        display: none;
+    }
+    .contacts {
+        float: right;
+        width: 29%;
+        position: relative;
+        top: 56px;
+        .contact {
+            width: 100%;
+            left: 0%;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+<div>
+
+    <section class="professional-projects">
+        <h1>Hobbies</h1>
+        <div class="projects">
+            <app-general-list [list]="hobbies"></app-general-list>
+        </div>
+    </section>
+    
+    <section class="pets">
+        <div>
+            <h1>Pets</h1>
+            <p>{{ pets.intro }}</p>
+        </div>
+        <ul class="image-logo-list">
+            <li *ngFor="let item of pets.petInfo" class="sce">
+              <div class="image-logo">
+                <img [src]="item.icon" alt="">
+              </div>
+              <div class="content">
+                <span>{{ item.name }}</span>
+                <br>
+                <span class="secondary">{{ item.description }} </span>
+                <br>
+              </div>
+            </li>
+          </ul>
+    </section>
+</div>

@@ -1,0 +1,7 @@
+<ul dense class="general-list">
+    <li *ngFor="let item of list" class="list-item">
+      <div class="title">{{ item.name }}</div>
+      <p *ngIf="item.introduction" class="secondary"> {{ item.introduction }}</p>
+      <p > {{ item.description }}</p>
+    </li>
+</ul>

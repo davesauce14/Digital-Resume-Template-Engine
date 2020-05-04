@@ -1,0 +1,12 @@
+<div class="contactInfo">
+    <div *ngFor="let contact of contactInfo" class="contact">
+        <span class="icon"><i [class]="contact.icon"></i></span>
+        <span class="contact-value" [ngSwitch]="contact.platform">
+            <span *ngSwitchCase="'phone'"><a class="truncate" [href]="'tel:+' + contact.value">{{contact.value}}</a></span>
+            <span *ngSwitchCase="'email'"><a class="truncate" [href]="'mailto:' + contact.value">{{contact.value}}</a></span>
+            <span *ngSwitchCase="'linkedin'"><a class="truncate" [href]="contact.value">{{contact.value}}</a></span>
+            <span *ngSwitchCase="'facebook'"><a class="truncate" [href]="contact.value">{{contact.value}}</a></span>
+            <span *ngSwitchDefault>{{contact.value}}</span>
+         </span>
+    </div>
+</div>
