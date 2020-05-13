@@ -4,8 +4,8 @@
         <span class="contact-value" [ngSwitch]="contact.platform">
             <span *ngSwitchCase="'phone'"><a class="truncate" [href]="'tel:+' + contact.value">{{contact.value}}</a></span>
             <span *ngSwitchCase="'email'"><a class="truncate" [href]="'mailto:' + contact.value">{{contact.value}}</a></span>
-            <span *ngSwitchCase="'linkedin'"><a class="truncate" [href]="contact.value">{{contact.value}}</a></span>
-            <span *ngSwitchCase="'facebook'"><a class="truncate" [href]="contact.value">{{contact.value}}</a></span>
+            <span *ngSwitchCase="'linkedin'"><a class="truncate" [href]="contact.url">{{contact.value}}</a></span>
+            <span *ngSwitchCase="'facebook'"><a class="truncate" [href]="contact.url">{{contact.value}}</a></span>
             <span *ngSwitchDefault>{{contact.value}}</span>
          </span>
     </div>

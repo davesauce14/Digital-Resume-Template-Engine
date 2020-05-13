@@ -6,20 +6,22 @@
         "greetings": [
             "Hi!",
             "Hello!", 
-            "Aloha!"
+            "Aloha!",
+            "Namaste!"
         ],
         "pictures": {
             "random": true,
             "pictureUrls" : [
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7COzgyd9c3XX79ctIx7KfDzaGTY7fXi_jFlqepgvlO3cXhVCLuw&s"
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7COzgyd9c3XX79ctIx7KfDzaGTY7fXi_jFlqepgvlO3cXhVCLuw&s",
+                "https://scontent.fewr1-3.fna.fbcdn.net/v/t31.0-8/23631940_10212373466145467_5670432060056381765_o.jpg?_nc_cat=110&_nc_sid=7aed08&_nc_oc=AQkv_TGYA5rFnQl--0TsFkTvV5PBDv1jS1PqYp2l3US8gR9qItIKbsMExt-4BLtNkUI&_nc_ht=scontent.fewr1-3.fna&oh=190143da8f8cb755d77196918f48bcc7&oe=5ED80823"
             ]
         }
     }, 
     "aboutMe" : {
-        "intro": "Hello, my name is Dave Gould and I love coding, both professionally and on my spare time. I have been an active developer for 5 years and it has become a part who I am. I have created this digital resume, not only for you to get to know me, but also to show off some development skills."
+        "intro": "Hello, my name is Dave Gould and I love coding, both professionally and on my spare time. I have been an active developer for the past 5 years and it has become a part of who I am. I have created this digital resume, not only for you to get to know me, but also to showcase some development skills."
     },
     "workExperience" : {
-        "intro": "My experience in the workforce has been such an amazing journey. I am so lucky to have had the oppertunities I've been given, and to have met such amazing people along the way. Below are the titles I have carried in reverse chronological order. I have put on many hats since my first job at 14 years old, although they might not be relevant, they are a part of who I am. Relevancy toggle is switched on to negate any irrelivent information and preserve my professional image as a software developer.;",
+        "intro": "My experience in the workforce has been such an amazing journey. I am so lucky to have had the opportunities I've been given, and to have met such amazing people along the way. Below are the titles I have carried, in reverse chronological order. I have put on many hats since my first job at 14 years old. Although they might not be relevant, they are a part of who I am. Relevancy toggle is switched off to negate any irrelevant information and preserve my professional image as a software developer.",
         "experiences": [
             {
                 "company": "Pershing",
@@ -162,7 +164,7 @@
                 "description": "After School and sumer camp.",
                 "titles" : [
                     {
-                        "title": "Camp Conselur",
+                        "title": "Camp Counselor",
                         "description": "",
                         "dates": {
                             "start" : "2007",
@@ -438,7 +440,7 @@
         "hobbies": [
             {
                 "name": "Snowboarding",
-                "description": "I love snowboarding! I take a trip every year to vermont to hit the slopes with my buddies. Even after shattering my clavicle into 5 pieces its still my favorite thing to do."
+                "description": "I love snowboarding! I take a trip every year to Vermont to hit the slopes with my buddies. Even after shattering my clavicle into 5 pieces its still my favorite thing to do."
             },
             {
                 "name": "Music",
@@ -446,11 +448,11 @@
             },
             {
                 "name": "Videogames",
-                "description": "Since my cousin introduced me to Mortal Kombat on Sega Genesis when I was four, Ive been obsessed with videogames. I recently beat Celeste and Ori, working on Cuphead right now. All time favorite game is Diablo II."
+                "description": "Ever since my cousin introduced me to Mortal Kombat on Sega Genesis when I was four, I’ve been obsessed with video games. I recently beat Celeste and Ori, working on Cuphead right now. All time favorite game is Diablo II."
             },
             {
                 "name": "Coding",
-                "description": "Coding is something that I put a lot of time into understanding, as a result it is something I love to do even after work hours. Everything we enjoy, our phone applications, videogames, its all software. I like creating videogames and have a lot of other software related ideas I have yet to implement. "
+                "description": "Coding is something that I put a lot of time into understanding. As a result, it is something I love to do even after work hours. Everything we enjoy, our phone applications, video games: it's all software. I like creating video games and have a lot of other software-related ideas I have yet to implement."
             }
         ],
         "pets": {
@@ -475,7 +477,7 @@
         "professionalAwards": [
             {
                 "name": "Employee Spotlight",
-                "description": "An 'Employee of the Month' type of an award for month of November. This is globally! So a very big honor.",
+                "description": "An 'Employee of the Month' award for the month of November. This is globally! So a very big honor.",
                 "url": ""
             },
             {
@@ -485,14 +487,14 @@
             },
             {
                 "name": "Leadership Award",
-                "description": "This award was given to my team recently for our efforts on the Sitebuilder project. An article will be comming in some journal, maybe Ill add the link here when its released.",
+                "description": "This award was given to my team recently for our efforts on the Sitebuilder project. An article will be coming shortly in a trade publication.",
                 "url": ""
             }
         ],
         "publicSpeaking": [
             {
                 "name": "Women in Technology",
-                "description": "Motivational speach to women trying to re-enter the work force, from the perspective of someone who has entered the workforce relatively recently.",
+                "description": "Motivational speech to women trying to re-enter the work force, from the perspective of someone who has entered the workforce relatively recently.",
                 "attendance": 30,
                 "url": [
                     {
@@ -503,7 +505,7 @@
             },
             {
                 "name": "Code for Kids",
-                "description": "Voulenteered to teach children the concepts of boolean expressions using a fun game. With BNY Mellon’s support this past school year, over 3,500 students in 55 schools across the country took part in over 5,000 hours of high-quality Hour of Code experiences through City Year.",
+                "description": "Volunteered to teach children the concepts of Boolean expressions using a fun game. With BNY Mellon’s support this past school year, over 3,500 students in 55 schools across the country took part in over 5,000 hours of high-quality Hour of Code experiences through City Year.",
                 "attendance": 30,
                 "url": [
                     {
@@ -514,7 +516,7 @@
             },
             {
                 "name": "Townhall: VR Demo",
-                "description": "Demoed my VR application internally at a town hall to over 600 developers!",
+                "description": "Demoed my VR application internally at a Town Hall to over 600 developers!",
                 "attendance": 600,
                 "url": ""
             }
@@ -523,49 +525,49 @@
             {
                 "name": "Pershing Portal Framework",
                 "introduction": "Our internal Angular Framework, an ecosystem of core angular/node libraries, used by every front-end system in our company.",
-                "description": "My responsibilities for this project was to contribute common components / functionality to this centrialized layer for other features to utilize. When we got feature requests, I would anayze the best approach, create design doc / usage doc, clear it with my peers / managers, contribute, and support any usage questions / issues. Before joining, the existing framework developers were very picky about letting other (non-framework) developers contribute, I encouraged a more open source environment allowing other teams to contribute and send us PR's to achieve a more scalable model. It has worked out well so far!",
+                "description": "My responsibility for this project was to contribute common components/functionality to this centralized layer for other features to utilize. When we got feature requests, I would analyze the best approach, create design doc/usage doc, clear it with my peers/managers, contribute, and support any usage questions/issues. Before joining, the existing framework developers were very picky about letting other (non-framework) developers contribute, I encouraged a more open source environment allowing other teams to contribute and send us PRs to achieve a more scalable model. It has worked out well so far!",
                 "url": ""
             },
             {
                 "name": "Sitebuilder",
                 "introduction": "An Application Similar to WIX or Squarespace where a user can create a branded instance of our interal platforms, Netx360 and NetxInvestor. Its also a developer admin tool!",
-                "description": "This was the project that streched my technical and interpersonal leadership skills the most! My Director pulled me into this project that was in danger of failing and gave me less than 3 months to turn it around in time for our demo with the CEO. I worked Day and night to understand the existing design. First I identified the major refactories that would be needed to take us out of the technical defecit we were in (there was 2 junior developers working on this for over a year). Then I restructured our sprint to prioritize the key items we would need to implement to achieve our goal. Then I shared the vision and provided guidence to the younger developers to grow their understanding so we could work in synergy. This project made its deadline for the Demo and recieved very positive responses. They have kept me on and we are now working on getting it to production!",
+                "description": "This was the project that stretched my technical and interpersonal leadership skills the most! My Director pulled me into this project that was in danger of failing and gave me less than 3 months to turn it around in time for our demo with the CEO. I worked day and night to understand the existing design. First, I identified the major refactories that would be needed to take us out of the technical deficit we were in (there was 2 junior developers working on this for over a year). Next, I restructured our sprint to prioritize the key items we would need to implement to achieve our goal. Finally, I shared the vision and provided guidance to the younger developers to grow their understanding so we could work in synergy. This project made its deadline for the demo and received very positive responses. They have kept me on, and we are now working on getting it to production!",
                 "url": ""
             },
             {
                 "name": "VR: User Navigational Patterns",
                 "introduction": "A VR Experience to visualize the navigational patterns of our users within our sites, which was demoed at an official conference with thousands of attendees. Visuialized using stars and planets. (Implemented using Oculus SDK and Unity)",
-                "description": "This was one of the most exciting projects for me because it merged my professional development skills with my interests in personal software development. Not many people in my field can say they created a VR app for their company that was demoed to thousands of people! For this project I was the sole contributer to the VR experience and I worked with one data scientist, who did the clustering of our user navigational patterns to get the data I needed. I created a rendering engine that rendered the nodes of our user data as planets and stars in a 3D space. On hovering over an item with the gaze pointer you were able to view the edges (constilations) that connected the nodes, and details of the node its-self node through a beautiful virtual user interface. The user interface was rendered in 3D space with a closeup of the beautiful planet textures I used.",
+                "description": "This was one of the most exciting projects for me because it merged my professional development skills with my interests in personal software development. Not many people in my field can say they created a VR app for their company that was demoed to thousands of people! For this project I was the sole contributor to the VR experience and I worked with one data scientist, who did the clustering of our user navigational patterns to get the data I needed. I created a rendering engine that rendered the nodes of our user data as planets and stars in a 3D space. Hovering over an item with the gaze pointer, you were able to view the edges (constellations) that connected the nodes, and details of the node itself through a beautiful virtual user interface. The user interface was rendered in 3D space with a closeup of the beautiful planet textures I used.",
                 "url": ""
             },
             {
                 "name": "Netx360 Mobile Hybrid",
                 "introduction": "A mobile channel for our web application that can be found on the Android and IOS app store.",
-                "description": "The goals for this project was to offer a performant mobile experience that was also scalable. We were in the midst of re-writing our angular web application, and it was not within the realm of feasibility to do another full re-write for our mobile channel. Thus we needed a way to build our web application to mobile. I remember this project being a political battle because the mobile team had been working on it for a year, without success, and I came in to try to help and completely redesigned what they had been working on. The problem was they were insisting that for mobile, the top priority was look and feel... Over scalability. Their model was to do a re-write of all components (hundreds) to use ionic component library which could emulate the ui widgets of the operating system it was running on (android, ios). Their codebase was getting very big and my Director was not impressed with the scalability concerns. I came to the conclusion that we could completely re-use our web-mobile experience, but build it in AOT, allow a new angular service to allow for features to invoke native functions such as camera, gps, and if we wanted to overwrite some device specific styles, iconography we could be feel to do so. I wrote the node script which pulls and builds the mobile app in one node script, and outputs an apk and ipa file which can be pushed to the appstore. I weighed the pros and cons to my approach v.s. theirs and got buy in from my director and managing director, to give back to the mobile team. As a result we now have a scalabile solution that works for not only one of our products but our other platform NXI as well.",
+                "description": "The goals for this project were to offer a performant mobile experience that was also scalable. We were in the midst of re-writing our angular web application, and it was not within the realm of feasibility to do another full re-write for our mobile channel. Thus we needed a way to build our web application to mobile. After diving deep into the project I came up with a solution where we could completely re-use our web-mobile experience, and build it using Ahead of time Compilation. Then I created a new angular service to allow our Angular features to invoke native device functions such as camera, gps. I wrote the node script which pulls all of our portal / feature modules, generates our menu and site configuration, builds the mobile app in AOT, and outputs an apk and ipa file which can be pushed to the appstore. I propsed my solution against existing prototypes and got buy in from our Director to have mobile team scale it out. As a result we now have a scalable solution that works for not only one of our products but our other platform NetxInvestor as well.",
                 "url": ""
             },
             {
                 "name": "Netx360 Wealth",
                 "introduction": "A complete rewrite of our legacy Netx360 stock trading application",
-                "description": "My role for this project was to move the needle to get us in a position where we could retire our old platform (of 15 years). This involved desigining new ways to tackle old problems, replacing components, retiring un-needed functionality. This was a great experience for me because re-writing legacy applications was something I was already familiar with so I was able to eccell and ask the right questions to promote innovation. Many times people fall into the trap of replicating the same old functionality in a new application, because its safer. I always went to a situation with asking why, and it got me in some interesting place in my designs. Aside from standard application development I also got outside my comfort zone in the networking aspect, I implemented a new routing mechanism known as service discovery which is a replacement for DNS based routing, where inorder to interact with another service you need to hardcode the domain urls.",
+                "description": "My role for this project was to get us in a position where we could retire our old platform (of 15 years). This involved designing new ways to tackle old problems, replacing components, retiring unneeded functionality. This was a great experience for me because re-writing legacy applications was something I was already familiar with, so I was able to excel and ask the right questions to promote innovation. Many times, people fall into the trap of replicating the same old functionality in a new application, because its safer. I always approached situations asking “why?” and that got me to some interesting places in my designs. Aside from standard application development I also got outside my comfort zone in the networking aspect. I implemented a new routing mechanism known as service discovery which is a replacement for DNS based routing, where in order to interact with another service you need to hardcode the domain urls.",
                 "url": ""
             },
             {
                 "name": "Account Opening API",
                 "introduction": "Lead the effort to expose our account opening service into rest API’s to be used by multiple internal platforms.",
-                "description": "For this effort my role was to support another team in creating accounts via REST API's. Prior to this, our account opening platform did not have any REST API's our service was only used by our account opening front end and they were coupled together.. For this effort, I introduced a new layer which was a spring microservice which interacted with our monolithic service via spring remoting, and exposed all of the functionality for creating accounts over HTTP.",
+                "description": "For this effort my role was to support another team in creating accounts via REST API's. Prior to this, our account opening platform did not have any REST API's. Our service was only used by our account opening front end, and they were coupled together. For this effort, I introduced a new layer which was a spring microservice which interacted with our monolithic service via spring remoting, and exposed all of the functionality for creating accounts over HTTP.",
                 "url": ""
             },
             {
                 "name": "Digital Advice",
                 "introduction": "Lead the effort to integrate Digital Advice with our account opening process.",
-                "description": " After opening an account I introduced new async process which listens to events (similar to kafka) sent my Digital Advice team, when triggered will merge Digital Advice Metadata with Account metadata, store and call multiple external systems. Introduced scheduler to handle any downstream system outage usecases.",
+                "description": "After opening an account, I introduced a new async process (similar to kafka) which listens to the events sent to my Digital Advice team. When triggered, it will merge Digital Advice metadata with Account metadata, store and call multiple external systems. I also introduced a scheduler to handle any downstream system outage use cases.",
                 "url": ""
             },
             {
                 "name": "Client On Boarding",
                 "introduction": "Re-write of our existing Account Opening platform.",
-                "description": "I worked full stack on this project for about 2 years my first project in pershing. Initally we were re-writing this application from server generated jsp to a legacy javascript framework called DOJO. Unhappy with my daily experience at work learning dojo, I took my laptop home with me every weekend and bagan porting to Angular 2, just to learn the newer framework for myself. After a cetrian amount of time, I shared it with my manager who after hearing the buzzwords from our leaders saying we will be moving to Agular in a couple years, encouraged me to keep going. Got recognized for my hard work outside of work and offered a job on another, larger scale team.",
+                "description": "I worked full stack on this project for about 2 years as my first project at Pershing. Initially, we were rewriting this application from server generated jsp to a legacy javascript framework called DOJO. Unsatisfied with my workday experience learning DOJO in the office, I took my laptop home with me every weekend and began porting to Angular 2, just to learn the newer framework for myself. After some time, I shared my work with my manager who-- after hearing from our leaders that we would be moving to Agular in a couple years-- encouraged me to keep going. I got recognized for my hard work outside of work and offered a job on another, larger-scale team.",
                 "url": ""
             }
         ],
@@ -677,19 +679,19 @@
             {
                 "name": "Beerpong VR",
                 "introduction": "Play beerpong with your friends or online in VR!",
-                "description": "Developed when oculus was just becomming popular, 6 cup, 10 cup, ..n cup (dynamic cup instantiation). Multiplayer + Matching capibilities via PUN (Photon Unity Network). Fun project, never pushed to store.",
+                "description": "Developed when oculus was just becomming popular, 6 cup, 10 cup, ..n cup (dynamic cup instantiation). Multiplayer + Matching capabilities via PUN (Photon Unity Network). Fun project, never pushed to store.",
                 "url": ""
             },
             {
                 "name": "Space Goat",
                 "introduction": "You are a goat that was put on Earth to protect humankind from an evil alien goat race",
-                "description": "A 2.5 platformer that places a heroic goat in the hands of our user. Defeat enemies to fill your power meter, which triggers our evolution system to become more power versions of your previous self. (Basic mechanics in place game unfinished)",
+                "description": "A 2.5 platformer that places a heroic goat in the hands of our user. Defeat enemies to fill your power meter, which triggers our evolution system to become more powerful versions of yourself. Basic mechanics in place, game unfinished.",
                 "url": ""
             },
             {
                 "name": "Digital Resume",
-                "introduction": "Digital Resume Templating Platform, Driven by one JSON File!",
-                "description": "This project was very fun and only took me a day and a half!",
+                "introduction": "Digital Resume Templating Platform, driven by one JSON File developed by me!",
+                "description": "This project was very fun and only took me a day and a half! I felt that the one page resume wasnt enough to showcase my portfolio so I created an online platform where I could have the freedom to add my experiences in a format of my choosing!",
                 "url": ""
             }
         ]

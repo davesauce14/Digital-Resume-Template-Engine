@@ -9,7 +9,7 @@
     </div>
     <div class="picture">
         <p *ngIf="shouldDisplayGreeting" class="speech">{{ header.greetings[greetingIndex] }}</p>
-        <img 
+        <img class="noSelect"
             [src]="header.pictures.pictureUrls[0]" 
             (click)="displayGreeting()"
             alt="Resume Photos">
