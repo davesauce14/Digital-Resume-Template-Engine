@@ -1,6 +1,13 @@
-# DigitalResumeTemplateEngine
+# Digital Resume Generator
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.
+View the running instance [here](http://dave.digital-resume-generator.net) 
+
+## About
+The purpose of this web-app is to create a rendered online resume, based off one json object.
+I created this to share a custom-taylored experience to potential employeers, displays more information than LinkedIn.
+
+
+|  This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.
 
 ## Development server
 
